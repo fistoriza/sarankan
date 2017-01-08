@@ -30,10 +30,12 @@
 <% end %>
 <br />
 <div class="clear"></div>
-<% @place.photos.each do |photo| %>
-    <i><%= photo.caption %></i>
-    <%= image_tag photo.picture, class: 'img-responsive' %>
-<% end %>
+  <% @place.photos.each do |photo| %>
+    <div class="col-xs-12 col-sm-6">  
+      <%= image_tag photo.picture, class: 'img-responsive' %>
+      <i><%= photo.caption %></i><br />
+    </div>
+  <% end %>
 <div class="clear"></div>
 
 <br />
