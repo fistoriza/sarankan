@@ -31,14 +31,15 @@
 <br />
 <div class="clear"></div>
 <% @place.photos.each do |photo| %>
-    <%= photo.caption %>
+    <i><%= photo.caption %></i>
+    <%= image_tag photo.picture, class: 'img-responsive' %>
 <% end %>
 <div class="clear"></div>
 
 <br />
 
   <div class="pull-right">
-    <button class="btn btn-primary btn-lg pull-right" data-toggle="modal" data-target="#ModalPict">
+    <button class="btn btn-primary" data-toggle="modal" data-target="#ModalPict">
     Upload a Photo
     </button>
     <% if current_user && current_user == @place.user %>
