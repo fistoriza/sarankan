@@ -1,5 +1,5 @@
 == README
 
-"Pizza is awesome"
+"Meatball Pizza is awesome"
 
 FISTO
