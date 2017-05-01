@@ -1,6 +1,3 @@
 == README
 
-
-
-Tapi kok gak berubah ya
->>>>>>> change-readme
+"Pizza is awesome"
