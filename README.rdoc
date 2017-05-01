@@ -1,4 +1,6 @@
 == README
 
 
-FISTO RIZA SATIANTOOOOOO!
+
+Tapi kok gak berubah ya
+>>>>>>> change-readme
